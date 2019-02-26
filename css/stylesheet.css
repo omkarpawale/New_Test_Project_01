@@ -299,3 +299,21 @@ html {
     60% { top: -150px; }
     80% { top: -200px; }
 }
+
+#artical1{
+height: 600px;
+width:45%;
+background-color: black;
+opacity: .4;
+float: left;
+clear: both;
+}
+
+#artical2{
+height: 600px;
+width:45%;
+background-color: black;
+opacity: .4;
+float: right;
+clear: both;
+}
