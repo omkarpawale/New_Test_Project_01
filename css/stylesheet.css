@@ -3,8 +3,14 @@
 @import url(https://fonts.googleapis.com/css?family=Squada+One);
 body {
   padding: 0px 10px;
-  background: #eee url(https://subtlepatterns.com/patterns/extra_clean_paper.png);
+ /*background: #eee url(https://subtlepatterns.com/patterns/extra_clean_paper.png);*/
+ 	background: url("../img/bg.gif") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+
 #logo {
   font-family: 'Open Sans', sans-serif;
   color: #555;
@@ -90,7 +96,7 @@ body {
     margin: 0 -5px;
 }
 #menu a:hover {
-  color: #d90075;
+  color: #e74c3c;
 }
 #menu li:after,
 #menu li:before {
@@ -387,3 +393,24 @@ opacity: 1;
 
 }
 
+::-webkit-scrollbar {
+  width: 20px;
+  
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #e74c3c; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
+}
