@@ -8,8 +8,8 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
 <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-
-
+<script src="https://code.jquery.com/jquery-3.3.1.js""> </script>
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
 
@@ -31,17 +31,30 @@
 			<img src="img/11.jpeg" width="100%">
 		</section>
 
-<div class="blk">
-<div class="sec">
-<section class="artical1 fade-in one">
-	
-	efewtege
-</section>
-<section class="artical2 fade-in two">
-	
-	efewtege
-</section>
+
+<div id="art_sec">
+	<div class="artical1" data-aos="zoom-in-up"  data-aos-offset="300"
+     data-aos-easing="ease-in-sine" data-aos-duration="1500">
+	<img src="img/art1.jpeg">
+	</div>
 </div>
+
+<div id="art_sec1">
+	<div id="pt1" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"> OUR SERVICES</div>	
+	<div id="pt2" data-aos="zoom-in-right" data-aos-duration="1800"> WEB APPLICATIONS</div>	
+	<div id="pt3" data-aos="flip-left" data-aos-easing="ease-out-cubic"  data-aos-duration="2000"> 1. UI/UX Design for Web Application </br>
+																								   2. Web Application Development</br>
+																								   3. Payment Gateway Integration</br>
+																								   4. CMS Development</div>
+	<div id="pt4" data-aos="zoom-in-right" data-aos="zoom-in-right" data-aos-duration="1800"> DATABASE MANAGEMENT</div>	
+	<div id="pt5" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000"> 1. Database Architecture </br>
+											2. Database Design &  Development</br>
+											3. Database Migration</br>
+											4. Backup & Recovery</div>	
+
+	
 </div>
 
 
@@ -57,10 +70,13 @@
      </div>
 </b>
 </div>
+
 <div id="jury">
 <div class="row">
   <div class="column">
-    <div class="card">
+    <div class="card" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="1000">
       <img src="img/team2.jpg" alt="Jane" style="width:100%">
       <div class="container">
         <h2>Omkar Pawale</h2>
@@ -73,7 +89,9 @@
   </div>
 
   <div class="column">
-    <div class="card">
+    <div class="card" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
       <img src="img/team1.jpg" alt="Mike" style="width:100%">
       <div class="container">
         <h2>Mike Ross</h2>
@@ -85,7 +103,9 @@
     </div>
   </div>
   <div class="column">
-    <div class="card">
+    <div class="card" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="3000">
       <img src="img/team4.jpeg" alt="Mike" style="width:100%">
       <div class="container">
         <h2>Halsey Pawale</h2>
@@ -97,7 +117,9 @@
     </div>
   </div>
   <div class="column">
-    <div class="card">
+    <div class="card" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="3000">
       <img src="img/team3.jpg" alt="John" style="width:100%">
       <div class="container">
         <h2>John Doe</h2>
@@ -112,5 +134,12 @@
 </div>
 
 
-</body>		    
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+
+</body>	
+    <footer id="footer"> 2019 &copy; Coderpunk</footer>	
 </html>
